@@ -27,15 +27,15 @@ class GreyScreen extends React.Component{
                 ["D/D#", require("../assets/Sounds/Grey/D_D_Sharp.mp3")], 
                 ["E", require("../assets/Sounds/Grey/E.mp3")], 
                 ["Eb", require("../assets/Sounds/Grey/Eb.mp3")], 
-                ["Screemo", require("../assets/Sounds/Grey/Screemo.mp3")], 
-                ["Screemo 2", require("../assets/Sounds/Grey/Screemo_2.mp3")], 
-                ["Metal", require("../assets/Sounds/Grey/Metal.mp3")], 
-                ["Metal 2", require("../assets/Sounds/Grey/Metal_2.mp3")], 
-                ["Metal 3", require("../assets/Sounds/Grey/Metal_3.mp3")], 
-                ["H Metal", require("../assets/Sounds/Grey/H_Metal.mp3")], 
-                ["H Metal 2", require("../assets/Sounds/Grey/H_Metal_2.mp3")], 
-                ["H Metal 3", require("../assets/Sounds/Grey/H_Metal_3.mp3")], 
-                ["H Metal 4", require("../assets/Sounds/Grey/H_Metal_4.mp3")]
+                ["Screemo", require("../assets/Sounds/Grey/Screemo.mp3"), "premium"], 
+                ["Screemo 2", require("../assets/Sounds/Grey/Screemo_2.mp3"), "premium"], 
+                ["Metal", require("../assets/Sounds/Grey/Metal.mp3"), "premium"], 
+                ["Metal 2", require("../assets/Sounds/Grey/Metal_2.mp3"), "premium"], 
+                ["Metal 3", require("../assets/Sounds/Grey/Metal_3.mp3"), "premium"], 
+                ["H Metal", require("../assets/Sounds/Grey/H_Metal.mp3"), "premium"], 
+                ["H Metal 2", require("../assets/Sounds/Grey/H_Metal_2.mp3"), "premium"], 
+                ["H Metal 3", require("../assets/Sounds/Grey/H_Metal_3.mp3"), "premium"], 
+                ["H Metal 4", require("../assets/Sounds/Grey/H_Metal_4.mp3"), "premium"]
             ]
         }))
     }

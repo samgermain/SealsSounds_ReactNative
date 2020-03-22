@@ -23,16 +23,16 @@ class HarpScreen extends React.Component{
                 ["Ma", require("../assets/Sounds/Harp/Ma.mp3")], 
                 ["Mom", require("../assets/Sounds/Harp/Mom.mp3")], 
                 ["Mom2", require("../assets/Sounds/Harp/Mom2.mp3")], 
-                ["Mrrh", require("../assets/Sounds/Harp/Mrrh.mp3")], 
-                ["Naa", require("../assets/Sounds/Harp/Naa.mp3")], 
-                ["Umba", require("../assets/Sounds/Harp/Umba.mp3")], 
-                ["Wow", require("../assets/Sounds/Harp/Wow.mp3")], 
-                ["ahHgh", require("../assets/Sounds/Harp/ahHgh.mp3")], 
-                ["ahHhghGa", require("../assets/Sounds/Harp/ahHhghGa.mp3")], 
-                ["brrrga", require("../assets/Sounds/Harp/brrrga.mp3")], 
-                ["haa", require("../assets/Sounds/Harp/haa.mp3")], 
-                ["mmmmmmmmmmmm", require("../assets/Sounds/Harp/mmmmmmmmmmmm.mp3")], 
-                ["mrhrmph", require("../assets/Sounds/Harp/mrhrmph.mp3")]
+                ["Mrrh", require("../assets/Sounds/Harp/Mrrh.mp3"), "premium"], 
+                ["Naa", require("../assets/Sounds/Harp/Naa.mp3"), "premium"], 
+                ["Umba", require("../assets/Sounds/Harp/Umba.mp3"), "premium"], 
+                ["Wow", require("../assets/Sounds/Harp/Wow.mp3"), "premium"], 
+                ["ahHgh", require("../assets/Sounds/Harp/ahHgh.mp3"), "premium"], 
+                ["ahHhghGa", require("../assets/Sounds/Harp/ahHhghGa.mp3"), "premium"], 
+                ["brrrga", require("../assets/Sounds/Harp/brrrga.mp3"), "premium"], 
+                ["haa", require("../assets/Sounds/Harp/haa.mp3"), "premium"], 
+                ["mmmmmmmmmmmm", require("../assets/Sounds/Harp/mmmmmmmmmmmm.mp3"), "premium"], 
+                ["mrhrmph", require("../assets/Sounds/Harp/mrhrmph.mp3"), "premium"]
             ]
         }))
     }

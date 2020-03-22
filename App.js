@@ -7,6 +7,7 @@ import WeddellScreen from './screens/WeddellScreen.js'
 import HarpScreen from './screens/HarpScreen.js'
 import GreyScreen from './screens/GreyScreen.js'
 import ImageScreen from './screens/ImageScreen.js'
+import * as InAppPurchases from 'expo-in-app-purchases';
 
 const styles = StyleSheet.create({
   container: {
@@ -44,20 +45,32 @@ const harpStack = createStackNavigator({
 })
 
 const TabNavigator = createBottomTabNavigator({
-  Weddell: weddellStack,
-  Grey: greyStack,
-  Harp: harpStack
+  Weddell: WeddellScreen,
+  Grey: GreyScreen,
+  Harp: HarpScreen
 },{
   initialRouteName: 'Weddell'
 })
 
 const AppContainer = createAppContainer(TabNavigator)
 
+const getHistory = async function(){
+  InAppPurchases.connectAsync()
+  const history = await connectAsync();
+    if (history.responseCode === IAPResponseCode.OK) {
+      history.results.forEach(result => {
+        console.log(result)
+      });
+    }
+}
+
 class App extends React.Component {
   
   render(){
+    getHistory()
     return (
-      <AppContainer />
+//      <View><Text>Hello World</Text></View>
+            <AppContainer />
     );
   }
 }

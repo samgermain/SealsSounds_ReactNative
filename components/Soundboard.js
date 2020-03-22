@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, ScrollView, TouchableOpacity, Button, ImageBack
 import { Audio } from 'expo-av'
 import store from '../redux/store.js'
 import {setBackgroundImage} from '../redux/actions.js'
+import { AdMobBanner } from 'expo-ads-admob'
+import * as InAppPurchases from 'expo-in-app-purchases';
 //import Sound from 'react-native-sound';
 //import SoundPlayer from 'react-native-sound-player'
 
@@ -25,17 +27,19 @@ const images = [
     'https://i.imgur.com/L3KnJEt.jpg'
 ]
 
+const itemSkus = Platform.select({
+    ios: [
+      1985162691
+    ],
+    android: [
+      1985162691
+    ]
+});
 //const backgroundImage = images[Math.floor(Math.random() * 16)]
 
 const styles = StyleSheet.create({
-    container:{
-        flex:1
-    },
-    row:{
-        height: 30,
-        flexDirection: 'row',
-        justifyContent: 'space-around',
-        margin:10
+    bannerAd:{
+        marginTop: 25
     },
     button:{
         backgroundColor: '#37E8E8',
@@ -43,12 +47,40 @@ const styles = StyleSheet.create({
         width:'31%',
         borderRadius: 5
     },
+    container:{
+        flex:1
+    },
+    premiumOverlay:{
+        width: '100%',
+        height: '100%',
+        position: 'absolute',
+        backgroundColor: 'rgba(125, 125, 125, 0.4)',
+        borderRadius: 5
+    },
+    premiumText:{
+        fontSize: 9,
+        position: "absolute",
+        top: 0,
+        right: 0,
+        color: 'rgb(75,75,75)'
+    },
+    row:{
+        height: 30,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        margin:10
+    },
     text:{
         textAlign:'center',
         color:'white',
-        fontSize:15
+        fontSize:15,
+
     }
 })
+
+const askForPurchase = function(){
+
+}
 
 const playSound = async function(sound){
     const args = {
@@ -61,17 +93,37 @@ const playSound = async function(sound){
 }
 
 /**
+ * A small label that says premium. Goes in the corner of a sound button when the sound requires an in-app-purchase
+ */
+const PremiumLabel = () => {
+    return (
+        <View style={styles.premiumOverlay}>
+            <Text style={styles.premiumText}>Premium</Text>
+        </View>
+    )
+}
+
+/**
  * Creates a touchable button component that plays a sound when pressed
  * @param {Sound Object} props.sound : An object of type Sound
  * @param {String} props.name : The name of the sound
  */
 const SoundButton = (props) => {
+    let onPrs
+    let premiumLabel
+    if (props.premium && !store.premiumPurchased){
+        onPrs = () => askForPurchase()
+        premiumLabel = <PremiumLabel />
+    }else{
+        onPrs = () => playSound(props.sound)
+    }
     return(
         <TouchableOpacity 
             style={styles.button} 
-            onPress={() => playSound(props.sound)}
+            onPress={onPrs}
             >
             <Text style={styles.text}>{props.name}</Text>
+            {premiumLabel}
         </TouchableOpacity>
     )
 }
@@ -83,7 +135,7 @@ const SoundButton = (props) => {
 const Row = (props) => {
     return(
         <View style={styles.row}>
-            {props.sounds.map(sound => <SoundButton key={sound[0]} name={sound[0]} sound={sound[1]} />)}
+            {props.sounds.map(sound => <SoundButton key={sound[0]} name={sound[0]} sound={sound[1]} premium={sound[2] == "premium"}/>)}
         </View>
     )
 }
@@ -143,6 +195,7 @@ class Soundboard extends React.Component {
     render(){
         return(
             <ImageBackground style={styles.container} source={store.getState().backgroundImage.image} onError={this.onError.bind(this)}>
+                <AdMobBanner style={styles.bannerAd} bannerSize="banner" adUnitID="ca-app-pub-3940256099942544/6300978111" didFailToReceiveAdWithError={this.bannerError} />
                 <Board  />
             </ImageBackground>
         )
