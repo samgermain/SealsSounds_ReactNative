@@ -26,12 +26,15 @@
     "ios": {
       "supportsTablet": true
     },
-  	"android": {
-      "package":"com.samgermain.sealsoundsapp",
+    "android": {
+      "package": "com.samgermain.sealsounds",
       "versionCode": 3,
       "permissions": [
-    		"com.android.vending.BILLING"
+        "com.android.vending.BILLING"
       ]
-    }
-  }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "SealSounds",
+  "name": "SealSounds"
 }

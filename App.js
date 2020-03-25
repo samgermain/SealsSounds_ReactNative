@@ -7,7 +7,7 @@ import WeddellScreen from './screens/WeddellScreen.js'
 import HarpScreen from './screens/HarpScreen.js'
 import GreyScreen from './screens/GreyScreen.js'
 import ImageScreen from './screens/ImageScreen.js'
-import * as InAppPurchases from 'expo-in-app-purchases';
+import * as RNIap from 'react-native-iap';
 
 const styles = StyleSheet.create({
   container: {
@@ -64,13 +64,30 @@ const getHistory = async function(){
     }
 }
 
+const items = Platform.select({
+  ios: [
+   '1985162691'
+  ],
+  android: [
+   '1985162691'
+  ]
+ });
+
 class App extends React.Component {
   
+  componentDidMount() {
+//    RNIap.prepare();
+    RNIap.getProducts(items).then((products) => {
+//      console.log(products)
+    }).catch((error) => {
+      console.log(error.message);
+    })
+  }
+
   render(){
-    getHistory()
+    //getHistory()
     return (
-//      <View><Text>Hello World</Text></View>
-            <AppContainer />
+      <AppContainer />
     );
   }
 }

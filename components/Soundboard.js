@@ -4,7 +4,6 @@ import { Audio } from 'expo-av'
 import store from '../redux/store.js'
 import {setBackgroundImage} from '../redux/actions.js'
 import { AdMobBanner } from 'expo-ads-admob'
-import * as InAppPurchases from 'expo-in-app-purchases';
 //import Sound from 'react-native-sound';
 //import SoundPlayer from 'react-native-sound-player'
 
@@ -193,6 +192,7 @@ class Soundboard extends React.Component {
     }
 
     render(){
+        //Actual ad-unit-id: ca-app-pub-6273488784837824/7629908270
         return(
             <ImageBackground style={styles.container} source={store.getState().backgroundImage.image} onError={this.onError.bind(this)}>
                 <AdMobBanner style={styles.bannerAd} bannerSize="banner" adUnitID="ca-app-pub-3940256099942544/6300978111" didFailToReceiveAdWithError={this.bannerError} />
