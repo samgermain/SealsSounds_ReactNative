@@ -7,6 +7,8 @@ import WeddellScreen from './screens/WeddellScreen.js'
 import HarpScreen from './screens/HarpScreen.js'
 import GreyScreen from './screens/GreyScreen.js'
 import ImageScreen from './screens/ImageScreen.js'
+import store from './redux/store.js'
+import {setProducts, setPurchases} from './redux/actions.js'
 import * as RNIap from 'react-native-iap';
 
 const styles = StyleSheet.create({
@@ -49,20 +51,16 @@ const TabNavigator = createBottomTabNavigator({
   Grey: GreyScreen,
   Harp: HarpScreen
 },{
-  initialRouteName: 'Weddell'
+  initialRouteName: 'Weddell',
+  tabBarOptions:{
+    labelStyle: {
+      fontSize: 15,
+      fontWeight: 'bold'
+    }
+  }
 })
 
 const AppContainer = createAppContainer(TabNavigator)
-
-const getHistory = async function(){
-  InAppPurchases.connectAsync()
-  const history = await connectAsync();
-    if (history.responseCode === IAPResponseCode.OK) {
-      history.results.forEach(result => {
-        console.log(result)
-      });
-    }
-}
 
 const items = Platform.select({
   ios: [
@@ -76,21 +74,19 @@ const items = Platform.select({
 class App extends React.Component {
   
   componentDidMount() {
-//    RNIap.prepare();
     RNIap.getProducts(items).then((products) => {
-//      console.log(products)
-    }).catch((error) => {
-      console.log(error.message);
+      store.dispatch(setProducts(products))
+      RNIap.getAvailablePurchases().then((purchase) => {
+        store.dispatch(setPurchases(purchase))
+      })
     })
   }
 
   render(){
-    //getHistory()
     return (
       <AppContainer />
     );
   }
 }
-
 
 export default App

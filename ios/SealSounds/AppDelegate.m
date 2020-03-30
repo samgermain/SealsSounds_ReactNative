@@ -29,6 +29,8 @@
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
+//  [GADMobileAds.sharedInstance startWithCompletionHandler:@"ca-app-pub-6273488784837824~4881803195"];
+  [[GADMobileAds sharedInstance] startWithCompletionHandler:nil];
   [self.window makeKeyAndVisible];
 
   [super application:application didFinishLaunchingWithOptions:launchOptions];

@@ -1,5 +1,5 @@
 import {combineReducers} from 'redux'
-import {SET_NAVIGATION, SET_SOUNDS, SET_BACKGROUND_IMAGE} from './actions'
+import {SET_NAVIGATION, SET_SOUNDS, SET_BACKGROUND_IMAGE, SET_PRODUCTS, SET_PURCHASES} from './actions'
 
 const navigationReducer = (state = [], action) => {
   if (action.type === SET_NAVIGATION) return action.payload
@@ -16,10 +16,22 @@ const backgroundImageReducer = (state = [], action) => {
   return state
 }
 
+const productsReducer = (state = [], action) => {
+  if (action.type === SET_PRODUCTS) return action.payload
+  return state
+}
+
+const purchasesReducer = (state = {}, action) => {
+  if (action.type === SET_PURCHASES) return action.payload
+  return state
+}
+
 const reducer = combineReducers({
   navigation: navigationReducer,
   sounds: soundsReducer,
-  backgroundImage: backgroundImageReducer
+  backgroundImage: backgroundImageReducer,
+  products: productsReducer,
+  purchases: purchasesReducer
 })
 
 export default reducer

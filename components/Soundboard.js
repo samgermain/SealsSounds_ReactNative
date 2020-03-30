@@ -1,29 +1,41 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView, TouchableOpacity, Button, ImageBackground } from 'react-native';
-import { Audio } from 'expo-av'
+import { StyleSheet, Text, View, ScrollView, TouchableOpacity, Button, ImageBackground, Platform } from 'react-native';
 import store from '../redux/store.js'
-import {setBackgroundImage} from '../redux/actions.js'
-import { AdMobBanner } from 'expo-ads-admob'
+import {setBackgroundImage, setPurchases} from '../redux/actions.js'
+import { AdMobBanner } from 'react-native-admob'
+import * as RNIap from 'react-native-iap';
+import { connect, Provider } from 'react-redux';
+
 //import Sound from 'react-native-sound';
-//import SoundPlayer from 'react-native-sound-player'
+import SoundPlayer from 'react-native-sound-player'
 
 const images = [
-    'https://i.imgur.com/SrHW4IM.jpg',
-    'https://i.imgur.com/Gry9L09.jpg',
-    'https://i.imgur.com/KHOiSnk.jpg',
-    'https://i.imgur.com/iHbEQHn.jpg',
-    'https://i.imgur.com/fdMLChE.jpg',
-    'https://i.imgur.com/6NP1nt9.jpg',
-    'https://i.imgur.com/HLcRMp4.jpg',
-    'https://i.imgur.com/tjR0Ik3.jpg',
-    'https://i.imgur.com/2f5tTlq.jpg',
-    'https://i.imgur.com/vBqigcw.jpg',
-    'https://i.imgur.com/LrSe7kk.jpg',
-    'https://i.imgur.com/K7grPoK.jpg',
-    'https://i.imgur.com/mlzsnw8.jpg',
-    'https://i.imgur.com/uoUWReH.jpg',
-    'https://i.imgur.com/k2sbmY4.jpg',
-    'https://i.imgur.com/L3KnJEt.jpg'
+    'https://i.imgur.com/dKDjcNA.jpg',
+    'https://i.imgur.com/R1R3xjo.jpg',
+    'https://i.imgur.com/pRdxSlP.jpg',
+    'https://i.imgur.com/gTuAQNU.jpg',
+    'https://i.imgur.com/WdcVxhC.jpg',
+    'https://i.imgur.com/jn1tGfx.jpg',
+    'https://i.imgur.com/AJTeIh4.jpg',
+    'https://i.imgur.com/GuM1KCy.jpg',
+    'https://i.imgur.com/CAVK8an.jpg',
+    'https://i.imgur.com/rZlLCqS.jpg',
+    'https://i.imgur.com/evs1zsP.jpg',
+    'https://i.imgur.com/cQD7xMN.jpg',
+    'https://i.imgur.com/9ZQMfJ4.jpg',
+    'https://i.imgur.com/kq4i0MO.jpg',
+    'https://i.imgur.com/zxerOq4.jpg',
+    'https://i.imgur.com/BHhC7Ek.jpg',
+    'https://i.imgur.com/nhseuyw.jpg',
+    'https://i.imgur.com/aDS4xKK.jpg',
+    'https://i.imgur.com/Ax6veAn.jpg',
+    'https://i.imgur.com/xRzLvRH.jpg',
+    'https://i.imgur.com/G49OUpK.jpg',
+    'https://i.imgur.com/VblOI3N.jpg',
+    'https://i.imgur.com/nSy2Av1.jpg',
+    'https://i.imgur.com/MiKajJX.jpg',
+    'https://i.imgur.com/jlroAjk.jpg',
+    'https://i.imgur.com/GYOkRQp.jpg'
 ]
 
 const itemSkus = Platform.select({
@@ -38,7 +50,7 @@ const itemSkus = Platform.select({
 
 const styles = StyleSheet.create({
     bannerAd:{
-        marginTop: 25
+        marginTop: 10
     },
     button:{
         backgroundColor: '#37E8E8',
@@ -47,7 +59,8 @@ const styles = StyleSheet.create({
         borderRadius: 5
     },
     container:{
-        flex:1
+        flex:1,
+        alignItems:'center'
     },
     premiumOverlay:{
         width: '100%',
@@ -73,23 +86,8 @@ const styles = StyleSheet.create({
         textAlign:'center',
         color:'white',
         fontSize:15,
-
     }
 })
-
-const askForPurchase = function(){
-
-}
-
-const playSound = async function(sound){
-    const args = {
-        playsInSilentModeIOS:true,
-        interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
-        interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX
-    }
-    const s = await Audio.Sound.createAsync(sound, args)
-    await s.sound.playAsync()
-}
 
 /**
  * A small label that says premium. Goes in the corner of a sound button when the sound requires an in-app-purchase
@@ -107,25 +105,73 @@ const PremiumLabel = () => {
  * @param {Sound Object} props.sound : An object of type Sound
  * @param {String} props.name : The name of the sound
  */
-const SoundButton = (props) => {
-    let onPrs
-    let premiumLabel
-    if (props.premium && !store.premiumPurchased){
-        onPrs = () => askForPurchase()
-        premiumLabel = <PremiumLabel />
-    }else{
-        onPrs = () => playSound(props.sound)
+class SButton extends React.Component{
+
+    componentDidMount(){
+        SoundPlayer.onFinishedLoading((success) => {
+        })
     }
-    return(
-        <TouchableOpacity 
-            style={styles.button} 
-            onPress={onPrs}
-            >
-            <Text style={styles.text}>{props.name}</Text>
-            {premiumLabel}
-        </TouchableOpacity>
-    )
+
+    askForPurchase = function(){
+        if (store.getState().purchase == null){
+            RNIap.getPurchaseHistory().then(purchase => {
+                store.dispatch(setPurchases(purchase))
+                if (purchase.length == 0){
+                    this.buyProduct()
+                }else{
+                     RNIap.getAvailablePurchases()
+                }
+            })
+        }
+    }
+
+    buyProduct = function(){
+        RNIap.requestPurchase("1985162691", false).then(purchase => {
+            store.dispatch(setPurchases(purchase))
+           }).catch((error) => {
+                console.log(error.message);
+        })
+    }
+
+    isEmpty = function(obj){
+        return Object.keys(obj).length === 0;
+    }
+
+    playSound = function(sound){
+        if (Platform.OS == 'android'){
+            let arr = sound.split('/')
+            sound = arr[arr.length - 1].toLowerCase()
+        }
+        SoundPlayer.playSoundFile(sound, 'mp3')
+    }
+    
+    render(){
+        let props = this.props
+        let onPrs
+        let premiumLabel
+        // let sound = this.createSound(props.sound)
+        if (props.premium && this.isEmpty(props.purchases) ){
+            onPrs = () => this.askForPurchase()
+            premiumLabel = <PremiumLabel />
+        }else{
+            onPrs = () => this.playSound(props.sound)
+        }
+        return(
+            <TouchableOpacity style={styles.button} onPress={onPrs} >
+                <Text style={styles.text}>{props.name}</Text>
+                {premiumLabel}
+            </TouchableOpacity>
+        )
+    }
 }
+
+const mapStateToProps = state => {
+    return {
+        purchases: state.purchases
+    };
+}
+
+const SoundButton = connect(mapStateToProps)(SButton)
 
 /**
  * A row of sound buttons
@@ -134,7 +180,7 @@ const SoundButton = (props) => {
 const Row = (props) => {
     return(
         <View style={styles.row}>
-            {props.sounds.map(sound => <SoundButton key={sound[0]} name={sound[0]} sound={sound[1]} premium={sound[2] == "premium"}/>)}
+            {props.sounds.map(sound => <Provider key={sound[0]} store={store}><SoundButton name={sound[0]} sound={sound[1]} premium={sound[2] == "premium"}/></Provider>)}
         </View>
     )
 }
@@ -177,16 +223,6 @@ class Soundboard extends React.Component {
         store.dispatch(setBackgroundImage({image:{uri: backgroundImage}}))
     }
 
-    async playSound(soundName){
-        const args = {
-            playsInSilentModeIOS:true,
-            interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
-            interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX
-        }
-        const {sound, status} = await Audio.Sound.createAsync(this.state.soundNames[soundName], args)
-        sound.playAsync()
-    }
-
     onError(error){
         store.dispatch(setBackgroundImage({image: require('../assets/images/default_seal.jpg')}))
     }
@@ -195,7 +231,7 @@ class Soundboard extends React.Component {
         //Actual ad-unit-id: ca-app-pub-6273488784837824/7629908270
         return(
             <ImageBackground style={styles.container} source={store.getState().backgroundImage.image} onError={this.onError.bind(this)}>
-                <AdMobBanner style={styles.bannerAd} bannerSize="banner" adUnitID="ca-app-pub-3940256099942544/6300978111" didFailToReceiveAdWithError={this.bannerError} />
+                <AdMobBanner style={styles.bannerAd} adSize="banner" adUnitID="ca-app-pub-6273488784837824/7629908270" didFailToReceiveAdWithError={this.bannerError} />
                 <Board  />
             </ImageBackground>
         )

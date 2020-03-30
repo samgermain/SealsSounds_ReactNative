@@ -16,23 +16,23 @@ class HarpScreen extends React.Component{
         store.dispatch(setNavigation({navigation:this.props.navigation}))
         store.dispatch(setSounds({
             sounds: [
-                ["Ag", require("../assets/Sounds/Harp/Ag.mp3")], 
-                ["BugOff", require("../assets/Sounds/Harp/BugOff.mp3")], 
-                ["GreenDay", require("../assets/Sounds/Harp/GreenDay.mp3")], 
-                ["Hallelujah", require("../assets/Sounds/Harp/Hallelujah.mp3")], 
-                ["Ma", require("../assets/Sounds/Harp/Ma.mp3")], 
-                ["Mom", require("../assets/Sounds/Harp/Mom.mp3")], 
-                ["Mom2", require("../assets/Sounds/Harp/Mom2.mp3")], 
-                ["Mrrh", require("../assets/Sounds/Harp/Mrrh.mp3"), "premium"], 
-                ["Naa", require("../assets/Sounds/Harp/Naa.mp3"), "premium"], 
-                ["Umba", require("../assets/Sounds/Harp/Umba.mp3"), "premium"], 
-                ["Wow", require("../assets/Sounds/Harp/Wow.mp3"), "premium"], 
-                ["ahHgh", require("../assets/Sounds/Harp/ahHgh.mp3"), "premium"], 
-                ["ahHhghGa", require("../assets/Sounds/Harp/ahHhghGa.mp3"), "premium"], 
-                ["brrrga", require("../assets/Sounds/Harp/brrrga.mp3"), "premium"], 
-                ["haa", require("../assets/Sounds/Harp/haa.mp3"), "premium"], 
-                ["mmmmmmmmmmmm", require("../assets/Sounds/Harp/mmmmmmmmmmmm.mp3"), "premium"], 
-                ["mrhrmph", require("../assets/Sounds/Harp/mrhrmph.mp3"), "premium"]
+                ["Ag", "/assets/Sounds/Harp/Ag"], 
+                ["baGAA", "/assets/Sounds/Harp/baGAA"], 
+                ["GreenDay", "/assets/Sounds/Harp/GreenDay"], 
+                ["Hallelujah", "/assets/Sounds/Harp/Hallelujah"], 
+                ["Ma", "/assets/Sounds/Harp/Ma"], 
+                ["Mom", "/assets/Sounds/Harp/Mom"], 
+                ["Mom2", "/assets/Sounds/Harp/Mom2"], 
+                ["Mrrh", "/assets/Sounds/Harp/Mrrh", "premium"], 
+                ["Naa", "/assets/Sounds/Harp/Naa", "premium"], 
+                ["Umba", "/assets/Sounds/Harp/Umba", "premium"], 
+                ["Wow", "/assets/Sounds/Harp/Wow", "premium"], 
+                ["ahHgh", "/assets/Sounds/Harp/ahHgh", "premium"], 
+                ["ahHhghGa", "/assets/Sounds/Harp/ahHhghGa", "premium"], 
+                ["brrrga", "/assets/Sounds/Harp/brrrga", "premium"], 
+                ["haa", "/assets/Sounds/Harp/haa", "premium"], 
+                ["mmmmmmmmmmmm", "/assets/Sounds/Harp/mmmmmmmmmmmm", "premium"], 
+                ["mrhrmph", "/assets/Sounds/Harp/mrhrmph", "premium"]
             ]
         }))
     }

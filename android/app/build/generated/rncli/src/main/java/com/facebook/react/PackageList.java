@@ -24,8 +24,6 @@ import com.dooboolab.RNIap.RNIapPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
-// react-native-sound
-import com.zmxv.RNSound.RNSoundPackage;
 // react-native-sound-player
 import com.johnsonsu.rnsoundplayer.RNSoundPlayerPackage;
 
@@ -78,7 +76,6 @@ public class PackageList {
       new RNIapPackage(),
       new ReanimatedPackage(),
       new RNScreensPackage(),
-      new RNSoundPackage(),
       new RNSoundPlayerPackage()
     ));
   }

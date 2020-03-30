@@ -1,3 +1,5 @@
 if you get 'Unfortunately app has stopped' this command has been known to work
     yarn cache clean --force
     package formally com.samgermain.sealsoundsapp
+
+./gradlew clean can fix dumb errors
