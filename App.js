@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import React, {useEffect} from 'react';
+import { StyleSheet } from 'react-native';
 import {createStackNavigator} from 'react-navigation-stack'
 import {createBottomTabNavigator} from 'react-navigation-tabs'
 import {createAppContainer} from 'react-navigation'
@@ -10,6 +10,7 @@ import ImageScreen from './screens/ImageScreen.js'
 import store from './redux/store.js'
 import {setProducts, setPurchases} from './redux/actions.js'
 import * as RNIap from 'react-native-iap';
+import SplashScreen from 'react-native-splash-screen'
 
 const styles = StyleSheet.create({
   container: {
@@ -80,6 +81,7 @@ class App extends React.Component {
         store.dispatch(setPurchases(purchase))
       })
     })
+    SplashScreen.hide()
   }
 
   render(){

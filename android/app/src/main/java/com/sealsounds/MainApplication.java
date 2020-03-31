@@ -22,6 +22,9 @@ import expo.modules.filesystem.FileSystemPackage;
 import java.util.Arrays;
 import java.util.List;
 
+//Splash Screen Stuff
+//import org.devio.rn.splashscreen.SplashScreenReactPackage;
+
 public class MainApplication extends Application implements ReactApplication {
   private final ReactModuleRegistryProvider mModuleRegistryProvider = new ReactModuleRegistryProvider(
     new BasePackageList().getPackageList(),
@@ -37,9 +40,20 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       List<ReactPackage> packages = new PackageList(this).getPackages();
-      packages.add(new ModuleRegistryAdapter(mModuleRegistryProvider));
+      packages.add(
+        new ModuleRegistryAdapter(mModuleRegistryProvider)
+      );
+//      packages.add(new SplashScreenReactPackage());
       return packages;
     }
+
+    // @Override
+    // protected List<ReactPackage> getPackages() {
+    //   return Arrays.<ReactPackage>asList(
+    //     new MainReactPackage(),
+    //     new SplashScreenReactPackage()  //here
+    //   );
+    // }
 
     @Override
     protected String getJSMainModuleName() {

@@ -3,3 +3,11 @@ if you get 'Unfortunately app has stopped' this command has been known to work
     package formally com.samgermain.sealsoundsapp
 
 ./gradlew clean can fix dumb errors
+
+
+Mar 29
+App icons are too small
+splash screen is ugly
+splash screen only there for a second
+text in buttons doesn't fit
+no bouncing scrollview

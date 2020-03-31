@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
-INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
-INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
-INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
+ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
+MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-admob] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-admob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -97,20 +98,20 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Sam/.gradle/caches/tra
 MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:2:1-30:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ae194612d83ae2967e7a8f737d9bec04/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/234a214d8edbcc623f0757ea188829f0/play-services-ads-base-19.0.1/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
-INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
-INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
+INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
 	package
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:2:5-29
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
+		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-60:12
+		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-50:12
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -205,7 +206,9 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:25:22-70
 application
-ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:28:5-58:19
+ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:28:5-48:19
+MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
@@ -292,16 +295,12 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:46:7-84
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:46:17-81
-activity#com.sealsounds.SplashActivity
-ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:48:7-56:18
-	android:theme
-		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:50:11-45
-	android:name
-		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:49:11-41
 uses-sdk
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-admob] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-admob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41

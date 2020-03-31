@@ -26,6 +26,8 @@ import com.swmansion.reanimated.ReanimatedPackage;
 import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-sound-player
 import com.johnsonsu.rnsoundplayer.RNSoundPlayerPackage;
+// react-native-splash-screen
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
 public class PackageList {
   private Application application;
@@ -76,7 +78,8 @@ public class PackageList {
       new RNIapPackage(),
       new ReanimatedPackage(),
       new RNScreensPackage(),
-      new RNSoundPlayerPackage()
+      new RNSoundPlayerPackage(),
+      new SplashScreenReactPackage()
     ));
   }
 }
