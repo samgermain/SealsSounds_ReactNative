@@ -11,8 +11,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-import com.sealsounds.BuildConfig;
-import com.sealsounds.R;
+import com.samgermain.sealsoundsapp.BuildConfig;
+import com.samgermain.sealsoundsapp.R;
 
 // react-native-admob
 import com.sbugert.rnadmob.RNAdMobPackage;

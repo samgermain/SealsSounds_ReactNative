@@ -102,7 +102,7 @@ INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
 	package
-		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:2:5-29
+		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:2:5-43
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -271,7 +271,7 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:35:75-129
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:35:18-74
-activity#com.sealsounds.MainActivity
+activity#com.samgermain.sealsoundsapp.MainActivity
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:37:7-46:18
 	android:label
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:39:9-41

@@ -1,4 +1,4 @@
-package com.sealsounds;
+package com.samgermain.sealsoundsapp;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

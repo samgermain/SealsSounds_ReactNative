@@ -1,4 +1,4 @@
-package com.sealsounds.generated;
+package com.samgermain.sealsoundsapp.generated;
 
 import java.util.Arrays;
 import java.util.List;

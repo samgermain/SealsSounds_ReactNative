@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sealsounds"
+    package="com.samgermain.sealsoundsapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -38,7 +38,7 @@
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /> <!-- END OPTIONAL PERMISSIONS -->
     <application
-        android:name="com.sealsounds.MainApplication"
+        android:name="com.samgermain.sealsoundsapp.MainApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -51,7 +51,7 @@
             android:value="ca-app-pub-6273488784837824~8942989946" />
 
         <activity
-            android:name="com.sealsounds.MainActivity"
+            android:name="com.samgermain.sealsoundsapp.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize" >
@@ -65,7 +65,7 @@
 
         <provider
             android:name="expo.modules.filesystem.FileSystemFileProvider"
-            android:authorities="com.sealsounds.FileSystemFileProvider"
+            android:authorities="com.samgermain.sealsoundsapp.FileSystemFileProvider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -97,7 +97,7 @@
 
         <provider
             android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:authorities="com.sealsounds.mobileadsinitprovider"
+            android:authorities="com.samgermain.sealsoundsapp.mobileadsinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
