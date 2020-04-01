@@ -7,7 +7,10 @@ if you get 'Unfortunately app has stopped' this command has been known to work
 
 Mar 29
 App icons are too small
+    * because there is a transparent border around all of them
 splash screen is ugly
 splash screen only there for a second
+    fixed: https://stackoverflow.com/questions/60923587/splash-screen-quickly-turns-to-white-on-react-native-android
 text in buttons doesn't fit
+    fixed: https://stackoverflow.com/questions/60959779/react-native-android-contain-text-to-inside-parent-view-on-a-single-line
 no bouncing scrollview

@@ -158,7 +158,7 @@ class SButton extends React.Component{
         }
         return(
             <TouchableOpacity style={styles.button} onPress={onPrs} >
-                <Text style={styles.text}>{props.name}</Text>
+                <Text ellipsizeMode="middle" numberOfLines={1} style={styles.text}>{props.name}</Text>
                 {premiumLabel}
             </TouchableOpacity>
         )
@@ -232,7 +232,7 @@ class Soundboard extends React.Component {
         //test id: ca-app-pub-3940256099942544/6300978111
         return(
             <ImageBackground style={styles.container} source={store.getState().backgroundImage.image} onError={this.onError.bind(this)}>
-                <AdMobBanner style={styles.bannerAd} adSize="banner" adUnitID="ca-app-pub-3940256099942544/6300978111" didFailToReceiveAdWithError={this.bannerError} />
+                <AdMobBanner style={styles.bannerAd} adSize="banner" adUnitID="ca-app-pub-6273488784837824/7629908270" didFailToReceiveAdWithError={this.bannerError} />
                 <Board  />
             </ImageBackground>
         )
