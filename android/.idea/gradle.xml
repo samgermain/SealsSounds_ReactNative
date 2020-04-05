@@ -28,7 +28,9 @@
             <option value="$PROJECT_DIR$/../node_modules/react-native-iap/android" />
             <option value="$PROJECT_DIR$/../node_modules/react-native-reanimated/android" />
             <option value="$PROJECT_DIR$/../node_modules/react-native-screens/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-share/android" />
             <option value="$PROJECT_DIR$/../node_modules/react-native-sound-player/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-splash-screen/android" />
             <option value="$PROJECT_DIR$/../node_modules/unimodules-barcode-scanner-interface/android" />
             <option value="$PROJECT_DIR$/../node_modules/unimodules-camera-interface/android" />
             <option value="$PROJECT_DIR$/../node_modules/unimodules-constants-interface/android" />

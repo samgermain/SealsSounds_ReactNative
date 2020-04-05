@@ -103,8 +103,18 @@ android {
         applicationId "com.samgermain.sealsoundsapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 12
+        versionName "1.2"
+    }
+    signingConfigs {
+        release {
+            //if (project.hasProperty('my-upload-key.keystore')) {
+                storeFile file("SealSounds.jks")
+                storePassword "73bd767afc2a499aa13f38588a1b35a6"
+                keyAlias "QHNhbWdlcm1haW4vU2VhbFNvdW5kcw=="
+                keyPassword "40bb1aec85b44217963a48ace82b3caa"
+            //}
+        }
     }
     splits {
         abi {
@@ -118,6 +128,7 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release

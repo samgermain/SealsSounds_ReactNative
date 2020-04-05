@@ -52,12 +52,12 @@
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/raw_c_slight_sharp.mp3.flat",
         "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/raw/c_slight_sharp.mp3"
+    },
+    {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/raw_wow.mp3.flat",
@@ -144,12 +144,12 @@
         "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/raw/e.mp3"
     },
     {
-        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/raw_naa.mp3.flat",
-        "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/raw/naa.mp3"
-    },
-    {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/raw_naa.mp3.flat",
+        "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/raw/naa.mp3"
     },
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -460,6 +460,10 @@
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/xml_share_download_paths.xml.flat",
+        "source": "/Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/packaged_res/debug/xml/share_download_paths.xml"
+    },
+    {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/color/abc_primary_text_disable_only_material_light.xml"
     },
@@ -570,6 +574,10 @@
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_old.png.flat",
+        "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/mipmap-hdpi/ic_launcher_old.png"
     },
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -698,6 +706,10 @@
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/color-v23_design_tint_password_toggle.xml.flat",
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_old.png.flat",
+        "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_old.png"
     },
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/layout_design_navigation_menu_item.xml.flat",
@@ -864,6 +876,10 @@
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_old.png.flat",
+        "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/mipmap-mdpi/ic_launcher_old.png"
+    },
+    {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/anim_design_snackbar_out.xml.flat",
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/anim/design_snackbar_out.xml"
     },
@@ -1016,6 +1032,10 @@
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_ic_launcher_old.png.flat",
+        "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/mipmap-ldpi/ic_launcher_old.png"
+    },
+    {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -1101,7 +1121,7 @@
     },
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/xml_file_system_provider_paths.xml.flat",
-        "source": "/Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/packaged_res/debug/xml/file_system_provider_paths.xml"
+        "source": "/Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/packaged_res/debug/xml/file_system_provider_paths.xml"
     },
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/raw_sneezes.mp3.flat",
@@ -1272,6 +1292,10 @@
         "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/raw/brrrga.mp3"
     },
     {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_old.png.flat",
+        "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/mipmap-xhdpi/ic_launcher_old.png"
+    },
+    {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
@@ -1410,6 +1434,10 @@
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
         "source": "/Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_old.png.flat",
+        "source": "/Users/Sam/Documents/SealSounds React Native/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_old.png"
     },
     {
         "merged": "/Users/Sam/Documents/SealSounds React Native/android/app/build/intermediates/res/merged/debug/raw_geeloliglet.mp3.flat",

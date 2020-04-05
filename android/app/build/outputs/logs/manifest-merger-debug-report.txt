@@ -4,40 +4,41 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
-MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-admob] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-admob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-iap] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-iap/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-screens] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-sound-player] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-sound-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:2:1-13:12
-MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [:expo-app-loader-provider] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-error-recovery] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
 MERGED from [:expo-font] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-in-app-purchases] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-in-app-purchases/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-keep-awake] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-linear-gradient] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:expo-sqlite] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-web-browser] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-app-loader] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7ad8abe29dd56421444bcdbbc9c2c3e8/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c64ae3266c6f2daf1b97fe612e967008/jetified-play-services-ads-19.0.1/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.browser:browser:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c18ea2bebf3d3f70044b8f352bfcc396/browser-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -47,8 +48,6 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Sam/.gradle/caches/
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56cd2448e3e6f3e64899f1d50d7c3ecd/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/cab7832cce6cba59b24676fd1e55715e/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.media:media:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -117,8 +116,8 @@ INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:23:5-67
@@ -187,8 +186,8 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:21:22-70
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:22:5-80
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:22:22-77
 uses-permission#android.permission.RECORD_AUDIO
@@ -197,8 +196,10 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:23:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:24:5-81
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:24:22-78
 uses-permission#android.permission.WRITE_SETTINGS
@@ -207,22 +208,20 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:25:22-70
 application
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:28:5-49:19
+MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
 MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
 MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
 MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:12:5-21:19
 MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:12:5-21:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56cd2448e3e6f3e64899f1d50d7c3ecd/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56cd2448e3e6f3e64899f1d50d7c3ecd/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/cab7832cce6cba59b24676fd1e55715e/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/cab7832cce6cba59b24676fd1e55715e/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/58344d837844e398f3e05f0bcdde7c39/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/58344d837844e398f3e05f0bcdde7c39/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
@@ -299,8 +298,8 @@ uses-sdk
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
-MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-admob] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-admob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-admob] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-admob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -311,30 +310,30 @@ MERGED from [:react-native-reanimated] /Users/Sam/Documents/SealSounds React Nat
 MERGED from [:react-native-reanimated] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-sound-player] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-sound-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-sound-player] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-sound-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [:expo-app-loader-provider] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-app-loader-provider] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-error-recovery] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-error-recovery] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
 MERGED from [:expo-font] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-font] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-in-app-purchases] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-in-app-purchases/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-in-app-purchases] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-in-app-purchases/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-keep-awake] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-keep-awake] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-linear-gradient] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -345,28 +344,30 @@ MERGED from [:expo-sqlite] /Users/Sam/Documents/SealSounds React Native/node_mod
 MERGED from [:expo-sqlite] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-web-browser] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-web-browser] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7ad8abe29dd56421444bcdbbc9c2c3e8/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7ad8abe29dd56421444bcdbbc9c2c3e8/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c64ae3266c6f2daf1b97fe612e967008/jetified-play-services-ads-19.0.1/AndroidManifest.xml:21:5-23:52
@@ -385,10 +386,6 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Sam/.gradle/ca
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56cd2448e3e6f3e64899f1d50d7c3ecd/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56cd2448e3e6f3e64899f1d50d7c3ecd/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/cab7832cce6cba59b24676fd1e55715e/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/cab7832cce6cba59b24676fd1e55715e/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.media:media:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
@@ -499,28 +496,38 @@ INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.STORAGE
-ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
-	android:name
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
-provider#expo.modules.filesystem.FileSystemFileProvider
-ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+provider#cl.json.RNShareFileProvider
+ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+		ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+		ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
-	tools:replace
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+		ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+		ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-55
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:64
 	android:resource
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+		ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-61
 	android:name
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+		ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
 	android:name

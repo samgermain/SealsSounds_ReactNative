@@ -24,6 +24,8 @@ import com.dooboolab.RNIap.RNIapPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-share
+import cl.json.RNSharePackage;
 // react-native-sound-player
 import com.johnsonsu.rnsoundplayer.RNSoundPlayerPackage;
 // react-native-splash-screen
@@ -78,6 +80,7 @@ public class PackageList {
       new RNIapPackage(),
       new ReanimatedPackage(),
       new RNScreensPackage(),
+      new RNSharePackage(),
       new RNSoundPlayerPackage(),
       new SplashScreenReactPackage()
     ));
