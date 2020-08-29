@@ -4,7 +4,6 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
-MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-admob] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-admob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-iap] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-iap/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -13,73 +12,46 @@ MERGED from [:react-native-screens] /Users/Sam/Documents/SealSounds React Native
 MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-sound-player] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-sound-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:2:1-13:12
-MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-47:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/1e94898bce844a3c06c5eb2617dade48/jetified-react-native-0.61.5/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [:expo-app-loader-provider] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-error-recovery] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
-MERGED from [:expo-font] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-keep-awake] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-linear-gradient] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
-MERGED from [:expo-sqlite] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-web-browser] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-app-loader] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7ad8abe29dd56421444bcdbbc9c2c3e8/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c64ae3266c6f2daf1b97fe612e967008/jetified-play-services-ads-19.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5b80e776e686c238697bd367101e4bbf/jetified-play-services-ads-19.0.1/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.browser:browser:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c18ea2bebf3d3f70044b8f352bfcc396/browser-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.transition:transition:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/905d0731114a9405fccfe6e474397261/transition-1.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/58344d837844e398f3e05f0bcdde7c39/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7fe0e43f5237081b22cded26a4ee8290/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/f57077feaac73ce9e679b2c86ae76e87/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-gass:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/63218223a9fefb47f32b96aba5e470c8/play-services-gass-19.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/37c39b77d53822f54f5439ccca5a6b28/play-services-measurement-base-17.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1e1a7650416e94f26825446094f8cac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56d3c40befa9cb41486b4a028b2bb989/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -94,8 +66,7 @@ MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/Sam/.gradle/caches/
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/6d8ed9e0f8213ea32367d06e2b1f713c/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4293ed4db268ca0cf0e4f081d13ea780/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0eb4451cb27d3ba611c2940c8db8fc89/soloader-0.6.0/AndroidManifest.xml:2:1-13:12
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:2:1-30:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ae194612d83ae2967e7a8f737d9bec04/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/e12e0dd0c87ae404fdd0c5ad69d0dc14/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/234a214d8edbcc623f0757ea188829f0/play-services-ads-base-19.0.1/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:1-51:12
@@ -116,8 +87,8 @@ INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:23:5-67
@@ -154,18 +125,10 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:13:22-77
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:16:5-81
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:16:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:17:5-79
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:17:22-76
 uses-permission#android.permission.CAMERA
@@ -186,8 +149,6 @@ ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/And
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:21:22-70
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:22:5-80
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:22:22-77
 uses-permission#android.permission.RECORD_AUDIO
@@ -198,8 +159,8 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:24:5-81
 MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
 MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
 	android:name
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml:24:22-78
 uses-permission#android.permission.WRITE_SETTINGS
@@ -212,22 +173,14 @@ MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/n
 MERGED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/1e94898bce844a3c06c5eb2617dade48/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/1e94898bce844a3c06c5eb2617dade48/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
-MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:12:5-21:19
-MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:12:5-21:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/58344d837844e398f3e05f0bcdde7c39/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/58344d837844e398f3e05f0bcdde7c39/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7fe0e43f5237081b22cded26a4ee8290/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7fe0e43f5237081b22cded26a4ee8290/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:12:5-21:19
+MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:12:5-21:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/f57077feaac73ce9e679b2c86ae76e87/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/f57077feaac73ce9e679b2c86ae76e87/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-gass:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/63218223a9fefb47f32b96aba5e470c8/play-services-gass-19.0.1/AndroidManifest.xml:7:5-20
@@ -238,16 +191,14 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Sam/.grad
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/37c39b77d53822f54f5439ccca5a6b28/play-services-measurement-base-17.1.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/37c39b77d53822f54f5439ccca5a6b28/play-services-measurement-base-17.1.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1e1a7650416e94f26825446094f8cac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1e1a7650416e94f26825446094f8cac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56d3c40befa9cb41486b4a028b2bb989/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56d3c40befa9cb41486b4a028b2bb989/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0eb4451cb27d3ba611c2940c8db8fc89/soloader-0.6.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0eb4451cb27d3ba611c2940c8db8fc89/soloader-0.6.0/AndroidManifest.xml:11:5-20
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
 MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/234a214d8edbcc623f0757ea188829f0/play-services-ads-base-19.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/234a214d8edbcc623f0757ea188829f0/play-services-ads-base-19.0.1/AndroidManifest.xml:7:5-20
 	android:appComponentFactory
@@ -298,8 +249,6 @@ uses-sdk
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
-MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-react-native-adapter] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-admob] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-admob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-admob] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-admob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -316,80 +265,30 @@ MERGED from [:react-native-sound-player] /Users/Sam/Documents/SealSounds React N
 MERGED from [:react-native-sound-player] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-sound-player/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-splash-screen] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed3f70364abd8b4ce44f256627954e92/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/1e94898bce844a3c06c5eb2617dade48/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/Sam/.gradle/caches/transforms-2/files-2.1/1e94898bce844a3c06c5eb2617dade48/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [:expo-app-loader-provider] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-app-loader-provider] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-error-recovery] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-error-recovery] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-font] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-font] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-keep-awake] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-keep-awake] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-linear-gradient] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-linear-gradient] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-sqlite] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-sqlite] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-web-browser] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-web-browser] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-permissions-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-task-manager-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-app-loader] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-app-loader] /Users/Sam/Documents/SealSounds React Native/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-core] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-barcode-scanner-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-camera-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-constants-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-face-detector-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-file-system-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-font-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-image-loader-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-sensors-interface] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7ad8abe29dd56421444bcdbbc9c2c3e8/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7ad8abe29dd56421444bcdbbc9c2c3e8/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c64ae3266c6f2daf1b97fe612e967008/jetified-play-services-ads-19.0.1/AndroidManifest.xml:21:5-23:52
-MERGED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c64ae3266c6f2daf1b97fe612e967008/jetified-play-services-ads-19.0.1/AndroidManifest.xml:21:5-23:52
+MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5b80e776e686c238697bd367101e4bbf/jetified-play-services-ads-19.0.1/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5b80e776e686c238697bd367101e4bbf/jetified-play-services-ads-19.0.1/AndroidManifest.xml:21:5-23:52
 MERGED from [androidx.browser:browser:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c18ea2bebf3d3f70044b8f352bfcc396/browser-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c18ea2bebf3d3f70044b8f352bfcc396/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.transition:transition:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/905d0731114a9405fccfe6e474397261/transition-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/905d0731114a9405fccfe6e474397261/transition-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -398,12 +297,6 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sam/.
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/58344d837844e398f3e05f0bcdde7c39/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/58344d837844e398f3e05f0bcdde7c39/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7fe0e43f5237081b22cded26a4ee8290/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/7fe0e43f5237081b22cded26a4ee8290/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/f57077feaac73ce9e679b2c86ae76e87/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/f57077feaac73ce9e679b2c86ae76e87/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-gass:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/63218223a9fefb47f32b96aba5e470c8/play-services-gass-19.0.1/AndroidManifest.xml:5:5-44
@@ -416,8 +309,8 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Sam/.grad
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/37c39b77d53822f54f5439ccca5a6b28/play-services-measurement-base-17.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/37c39b77d53822f54f5439ccca5a6b28/play-services-measurement-base-17.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1e1a7650416e94f26825446094f8cac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1e1a7650416e94f26825446094f8cac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56d3c40befa9cb41486b4a028b2bb989/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56d3c40befa9cb41486b4a028b2bb989/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0362ff4d8672321347a402c32368f192/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -428,10 +321,12 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Sam/.gra
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/dbbcc99072b5616db9e0106b8ed65934/activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -442,14 +337,14 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sam/.gradle/cach
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ffa46f3d6480310395b7b525cf59ccde/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/64ed055c454b36433d45a77285ee24d6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
@@ -478,16 +373,14 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/Sam/.gradle/ca
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4293ed4db268ca0cf0e4f081d13ea780/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0eb4451cb27d3ba611c2940c8db8fc89/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0eb4451cb27d3ba611c2940c8db8fc89/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ae194612d83ae2967e7a8f737d9bec04/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ae194612d83ae2967e7a8f737d9bec04/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/e12e0dd0c87ae404fdd0c5ad69d0dc14/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/e12e0dd0c87ae404fdd0c5ad69d0dc14/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/234a214d8edbcc623f0757ea188829f0/play-services-ads-base-19.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/234a214d8edbcc623f0757ea188829f0/play-services-ads-base-19.0.1/AndroidManifest.xml:5:5-44
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/c64ae3266c6f2daf1b97fe612e967008/jetified-play-services-ads-19.0.1/AndroidManifest.xml:23:9-49
+		ADDED from [com.google.android.gms:play-services-ads:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/5b80e776e686c238697bd367101e4bbf/jetified-play-services-ads-19.0.1/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
 		INJECTED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/Sam/Documents/SealSounds React Native/android/app/src/main/AndroidManifest.xml
@@ -512,66 +405,56 @@ ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/no
 		ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-61
 	android:name
 		ADDED from [:react-native-share] /Users/Sam/Documents/SealSounds React Native/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
-uses-permission#android.permission.STORAGE
-ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
 	android:name
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
-provider#expo.modules.filesystem.FileSystemFileProvider
-ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
-	android:grantUriPermissions
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
-	android:authorities
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
-	android:exported
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
-	tools:replace
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+		ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:expo-file-system] /Users/Sam/Documents/SealSounds React Native/node_modules/expo/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
-	android:name
-		ADDED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
-service#expo.modules.location.services.LocationTaskService
-ADDED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
-	android:exported
-		ADDED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
-	android:name
-		ADDED from [:expo-location] /Users/Sam/Documents/SealSounds React Native/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
-uses-permission#com.android.vending.BILLING
-ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:10:5-67
-	android:name
-		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:10:22-64
-meta-data#com.google.android.play.billingclient.version
-ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:13:9-15:37
-	android:value
-		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:15:13-34
-	android:name
-		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:14:13-73
-activity#com.android.billingclient.api.ProxyBillingActivity
-ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:17:9-20:75
-	android:configChanges
-		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:19:13-96
-	android:theme
-		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:20:13-72
-	android:name
-		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/0afdd86650f57b1ae1c7224da91712c3/jetified-billing-2.0.3/AndroidManifest.xml:18:13-78
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/ed2a1acae47c93d0ec24a8275033d159/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+		ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:24:5-79
+ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:24:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:24:22-76
+		ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:22-73
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/Sam/Documents/SealSounds React Native/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:10:22-64
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:17:9-20:75
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:20:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:2.0.3] /Users/Sam/.gradle/caches/transforms-2/files-2.1/086008f3ce025dd251448e39a494aaab/jetified-billing-2.0.3/AndroidManifest.xml:18:13-78
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:29:9-33:64
 	android:exported
@@ -592,39 +475,9 @@ ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gr
 		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:39:13-36
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d4a260b7bca535949c8862c07866ef02/play-services-ads-lite-19.0.1/AndroidManifest.xml:36:13-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:5-68
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/a30d31382de4f03f80c19b076c75b8a7/play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:22-65
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1e1a7650416e94f26825446094f8cac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56d3c40befa9cb41486b4a028b2bb989/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1e1a7650416e94f26825446094f8cac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56d3c40befa9cb41486b4a028b2bb989/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/d1e1a7650416e94f26825446094f8cac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
-uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
-service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
-	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
-service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
-	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
-service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
-	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/Sam/.gradle/caches/transforms-2/files-2.1/4b249d06143d5cd7ebb34020a9ee125b/jetified-library-3.2.11/AndroidManifest.xml:26:13-120
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Sam/.gradle/caches/transforms-2/files-2.1/56d3c40befa9cb41486b4a028b2bb989/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

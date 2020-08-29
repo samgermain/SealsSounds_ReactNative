@@ -30,6 +30,8 @@ import cl.json.RNSharePackage;
 import com.johnsonsu.rnsoundplayer.RNSoundPlayerPackage;
 // react-native-splash-screen
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
+// rn-fetch-blob
+import com.RNFetchBlob.RNFetchBlobPackage;
 
 public class PackageList {
   private Application application;
@@ -82,7 +84,8 @@ public class PackageList {
       new RNScreensPackage(),
       new RNSharePackage(),
       new RNSoundPlayerPackage(),
-      new SplashScreenReactPackage()
+      new SplashScreenReactPackage(),
+      new RNFetchBlobPackage()
     ));
   }
 }

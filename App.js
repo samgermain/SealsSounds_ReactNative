@@ -6,6 +6,7 @@ import {createAppContainer} from 'react-navigation'
 import WeddellScreen from './screens/WeddellScreen.js'
 import HarpScreen from './screens/HarpScreen.js'
 import GreyScreen from './screens/GreyScreen.js'
+import PokeScreen from './screens/PokeScreen.js'
 import ImageScreen from './screens/ImageScreen.js'
 import store from './redux/store.js'
 import {setProducts, setPurchases} from './redux/actions.js'
@@ -50,7 +51,8 @@ const harpStack = createStackNavigator({
 const TabNavigator = createBottomTabNavigator({
   Weddell: WeddellScreen,
   Grey: GreyScreen,
-  Harp: HarpScreen
+  Harp: HarpScreen,
+  Poke: PokeScreen
 },{
   initialRouteName: 'Weddell',
   tabBarOptions:{
@@ -80,6 +82,8 @@ class App extends React.Component {
       RNIap.getAvailablePurchases().then((purchase) => {
         store.dispatch(setPurchases(purchase))
       })
+    }).catch((error) => {
+      console.log(error)
     })
     SplashScreen.hide()
   }

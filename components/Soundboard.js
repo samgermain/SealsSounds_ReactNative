@@ -5,38 +5,9 @@ import {setBackgroundImage, setPurchases} from '../redux/actions.js'
 import { AdMobBanner } from 'react-native-admob'
 import * as RNIap from 'react-native-iap';
 import { connect, Provider } from 'react-redux';
-
 //import Sound from 'react-native-sound';
 import SoundPlayer from 'react-native-sound-player'
-
-const images = [
-    'https://i.imgur.com/dKDjcNA.jpg',
-    'https://i.imgur.com/R1R3xjo.jpg',
-    'https://i.imgur.com/pRdxSlP.jpg',
-    'https://i.imgur.com/gTuAQNU.jpg',
-    'https://i.imgur.com/WdcVxhC.jpg',
-    'https://i.imgur.com/jn1tGfx.jpg',
-    'https://i.imgur.com/AJTeIh4.jpg',
-    'https://i.imgur.com/GuM1KCy.jpg',
-    'https://i.imgur.com/CAVK8an.jpg',
-    'https://i.imgur.com/rZlLCqS.jpg',
-    'https://i.imgur.com/evs1zsP.jpg',
-    'https://i.imgur.com/cQD7xMN.jpg',
-    'https://i.imgur.com/9ZQMfJ4.jpg',
-    'https://i.imgur.com/kq4i0MO.jpg',
-    'https://i.imgur.com/zxerOq4.jpg',
-    'https://i.imgur.com/BHhC7Ek.jpg',
-    'https://i.imgur.com/nhseuyw.jpg',
-    'https://i.imgur.com/aDS4xKK.jpg',
-    'https://i.imgur.com/Ax6veAn.jpg',
-    'https://i.imgur.com/xRzLvRH.jpg',
-    'https://i.imgur.com/G49OUpK.jpg',
-    'https://i.imgur.com/VblOI3N.jpg',
-    'https://i.imgur.com/nSy2Av1.jpg',
-    'https://i.imgur.com/MiKajJX.jpg',
-    'https://i.imgur.com/jlroAjk.jpg',
-    'https://i.imgur.com/GYOkRQp.jpg'
-]
+import {images} from './images'
 
 const itemSkus = Platform.select({
     ios: [
@@ -216,22 +187,23 @@ class Soundboard extends React.Component {
 
     constructor(props){
         super(props)
-        const backgroundImage = images[Math.floor(Math.random() * 16)]
-        this.props.navigation.addListener('willFocus', () =>{
-            store.dispatch(setBackgroundImage({image:{uri: backgroundImage}}))
-        })
-        store.dispatch(setBackgroundImage({image:{uri: backgroundImage}}))
+        this.backgroundImage = {image:{uri: images[Math.floor(Math.random() * 16)]}}
+        // this.props.navigation.addListener('willFocus', () =>{
+        //     store.dispatch(setBackgroundImage({image:{uri: backgroundImage}}))
+        // })
+        // store.dispatch(setBackgroundImage({image:{uri: backgroundImage}}))
     }
 
     onError(error){
-        store.dispatch(setBackgroundImage({image: require('../assets/images/default_seal.jpg')}))
+        this.backgroundImage = {image: require('../assets/images/default_seal.jpg')}
+        // store.dispatch(setBackgroundImage({image: require('../assets/images/default_seal.jpg')}))
     }
 
     render(){
         //Actual ad-unit-id: ca-app-pub-6273488784837824/7629908270
         //test id: ca-app-pub-3940256099942544/6300978111
         return(
-            <ImageBackground style={styles.container} source={store.getState().backgroundImage.image} onError={this.onError.bind(this)}>
+            <ImageBackground style={styles.container} source={this.backgroundImage} onError={this.onError.bind(this)}>
                 <AdMobBanner style={styles.bannerAd} adSize="banner" adUnitID="ca-app-pub-6273488784837824/7629908270" didFailToReceiveAdWithError={this.bannerError} />
                 <Board  />
             </ImageBackground>

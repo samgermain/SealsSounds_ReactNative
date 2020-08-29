@@ -19,6 +19,9 @@ import expo.modules.constants.ConstantsPackage;
 import expo.modules.permissions.PermissionsPackage;
 import expo.modules.filesystem.FileSystemPackage;
 
+import cl.json.RNSharePackage;
+import cl.json.ShareApplication;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -43,6 +46,9 @@ public class MainApplication extends Application implements ReactApplication {
       packages.add(
         new ModuleRegistryAdapter(mModuleRegistryProvider)
       );
+      // packages.add(
+      //   new RNSharePackage()
+      // );
 //      packages.add(new SplashScreenReactPackage());
       return packages;
     }
