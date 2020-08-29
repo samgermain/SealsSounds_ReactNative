@@ -21,7 +21,10 @@ const itemSkus = Platform.select({
 
 const styles = StyleSheet.create({
     bannerAd:{
-        marginTop: 10
+        marginTop: 20
+    },
+    bottomAd:{
+        marginTop: "auto"
     },
     button:{
         backgroundColor: '#37E8E8',
@@ -31,7 +34,15 @@ const styles = StyleSheet.create({
     },
     container:{
         flex:1,
+        height:'100%',
+        width:'100%',
         alignItems:'center'
+    },
+    premiumButton:{
+        borderRadius: 5,
+        padding:15,
+        backgroundColor: '#37E8E8',
+        justifyContent: 'center',
     },
     premiumOverlay:{
         width: '100%',
@@ -47,12 +58,23 @@ const styles = StyleSheet.create({
         right: 0,
         color: 'rgb(75,75,75)'
     },
+    premiumView:{
+        display: 'flex',
+        justifyContent: 'space-around',
+        height:'80%',
+        width: '50%',
+        margin: 'auto',
+        textAlign: 'center'
+    },
     row:{
         height: 30,
         flexDirection: 'row',
         justifyContent: 'space-around',
         margin:10
     },
+    scrollView:{
+        height:'100%'
+    },  
     text:{
         textAlign:'center',
         color:'white',
@@ -71,6 +93,27 @@ const PremiumLabel = () => {
     )
 }
 
+const buyProduct = function(){
+    RNIap.requestPurchase("1985162691", false).then(purchase => {
+        store.dispatch(setPurchases(purchase))
+    }).catch((error) => {
+        console.log(error.message);
+    })
+}
+
+const askForPurchase = function(){
+    if (store.getState().purchase == null){
+        RNIap.getPurchaseHistory().then(purchase => {
+            store.dispatch(setPurchases(purchase))
+            if (purchase.length == 0){
+                buyProduct()
+            }else{
+                 RNIap.getAvailablePurchases()
+            }
+        })
+    }
+}
+
 /**
  * Creates a touchable button component that plays a sound when pressed
  * @param {Sound Object} props.sound : An object of type Sound
@@ -80,27 +123,6 @@ class SButton extends React.Component{
 
     componentDidMount(){
         SoundPlayer.onFinishedLoading((success) => {
-        })
-    }
-
-    askForPurchase = function(){
-        if (store.getState().purchase == null){
-            RNIap.getPurchaseHistory().then(purchase => {
-                store.dispatch(setPurchases(purchase))
-                if (purchase.length == 0){
-                    this.buyProduct()
-                }else{
-                     RNIap.getAvailablePurchases()
-                }
-            })
-        }
-    }
-
-    buyProduct = function(){
-        RNIap.requestPurchase("1985162691", false).then(purchase => {
-            store.dispatch(setPurchases(purchase))
-           }).catch((error) => {
-                console.log(error.message);
         })
     }
 
@@ -122,7 +144,7 @@ class SButton extends React.Component{
         let premiumLabel
         // let sound = this.createSound(props.sound)
         if (props.premium && this.isEmpty(props.purchases) ){
-            onPrs = () => this.askForPurchase()
+            onPrs = () => askForPurchase()
             premiumLabel = <PremiumLabel />
         }else{
             onPrs = () => this.playSound(props.sound)
@@ -161,7 +183,7 @@ const Board = () => {
     const soundLen = store.getState().sounds.sounds.length
     let count = 0
     return(
-        <ScrollView>
+        <ScrollView style={styles.scrollView}>
             {store.getState().sounds.sounds.map((sound,i) => {
                 curRowSounds.push(sound)
                 if (curRowSounds.length >= 3){
@@ -174,9 +196,19 @@ const Board = () => {
                     return <Row key={count} sounds={curRowSounds} />
                 }
             })}
+            
         </ScrollView>
     )
         
+}
+
+const AdUnit = function({style}){
+    //Actual ad-unit-id: ca-app-pub-6273488784837824/7629908270
+    //test id: ca-app-pub-3940256099942544/6300978111
+    const adId = "ca-app-pub-3940256099942544/6300978111"
+    return (
+        <AdMobBanner style={style} adSize="banner" adUnitID={adId} didFailToReceiveAdWithError={this.bannerError} />
+    )
 }
 
 /**
@@ -200,14 +232,33 @@ class Soundboard extends React.Component {
     }
 
     render(){
-        //Actual ad-unit-id: ca-app-pub-6273488784837824/7629908270
-        //test id: ca-app-pub-3940256099942544/6300978111
-        return(
-            <ImageBackground style={styles.container} source={this.backgroundImage} onError={this.onError.bind(this)}>
-                <AdMobBanner style={styles.bannerAd} adSize="banner" adUnitID="ca-app-pub-6273488784837824/7629908270" didFailToReceiveAdWithError={this.bannerError} />
-                <Board  />
-            </ImageBackground>
-        )
+        if (this.props.screenType === "premium"){
+            return (
+                <ImageBackground style={styles.container} source={this.backgroundImage} onError={this.onError.bind(this)}>
+                    <AdUnit style={styles.bannerAd} />
+                    
+                    <View style={styles.premiumView}>
+                        <TouchableOpacity style={styles.premiumButton} onPress={buyProduct()} >
+                            <Text ellipsizeMode="middle" numberOfLines={1} style={styles.text}>Buy Premium</Text>
+                        </TouchableOpacity>
+                        
+                        <TouchableOpacity style={styles.premiumButton} onPress={askForPurchase()} >
+                            <Text ellipsizeMode="middle" numberOfLines={1} style={styles.text}>Restore Purchases</Text>
+                        </TouchableOpacity>
+
+                        <Text style={{textAlign: 'center'}}>Sounds were collected by the Weddell Seal Science Project under NMFS Permit 1032-1917</Text>
+                    </View>
+
+                </ImageBackground>
+            )
+        }else{
+            return(
+                <ImageBackground style={styles.container} resizeMode="stretch" source={this.backgroundImage} onError={this.onError.bind(this)}>
+                    <AdUnit style={styles.bannerAd} />
+                    <Board  />
+                </ImageBackground>
+            )
+        }
     }
 }
 
