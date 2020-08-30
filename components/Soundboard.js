@@ -1,23 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView, TouchableOpacity, Button, ImageBackground, Platform } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, TouchableOpacity, ImageBackground, Platform } from 'react-native';
+import {TextStroke} from './TextStroke'
 import store from '../redux/store.js'
-import {setBackgroundImage, setPurchases} from '../redux/actions.js'
+import {setPurchases} from '../redux/actions.js'
 import { AdMobBanner } from 'react-native-admob'
 import * as RNIap from 'react-native-iap';
 import { connect, Provider } from 'react-redux';
 //import Sound from 'react-native-sound';
 import SoundPlayer from 'react-native-sound-player'
 import {images} from './images'
-
-const itemSkus = Platform.select({
-    ios: [
-      1985162691
-    ],
-    android: [
-      1985162691
-    ]
-});
-//const backgroundImage = images[Math.floor(Math.random() * 16)]
 
 const styles = StyleSheet.create({
     bannerAd:{
@@ -41,6 +32,7 @@ const styles = StyleSheet.create({
     premiumButton:{
         borderRadius: 5,
         padding:15,
+        margin:'18%',
         backgroundColor: '#37E8E8',
         justifyContent: 'center',
     },
@@ -62,7 +54,7 @@ const styles = StyleSheet.create({
         display: 'flex',
         justifyContent: 'space-around',
         height:'80%',
-        width: '50%',
+        width: '80%',
         margin: 'auto',
         textAlign: 'center'
     },
@@ -78,7 +70,11 @@ const styles = StyleSheet.create({
     text:{
         textAlign:'center',
         color:'white',
-        fontSize:15,
+        fontSize:15
+    },
+    textStroke:{
+        marginLeft:'auto',
+        marginRight:"auto"
     }
 })
 
@@ -94,6 +90,7 @@ const PremiumLabel = () => {
 }
 
 const buyProduct = function(){
+    console.log(`Buy Product`)
     RNIap.requestPurchase("1985162691", false).then(purchase => {
         store.dispatch(setPurchases(purchase))
     }).catch((error) => {
@@ -102,16 +99,31 @@ const buyProduct = function(){
 }
 
 const askForPurchase = function(){
-    if (store.getState().purchase == null){
+    if (!store.getState().purchase){
+        console.log(RNIap.getPurchaseHistory())
         RNIap.getPurchaseHistory().then(purchase => {
+            console.log(`Ask for purchase ${!store.getState().purchase}`)
             store.dispatch(setPurchases(purchase))
             if (purchase.length == 0){
+                console.log(`if1`)
                 buyProduct()
             }else{
-                 RNIap.getAvailablePurchases()
+                console.log(`else`)
+                RNIap.getAvailablePurchases()
             }
+        }, reason => {
+            console.log(reason)
         })
+        console.log(`end`)
     }
+}
+
+const StrokedText = ({text}) => {
+    return (
+        <TextStroke style={styles.textStroke} stroke={1} color={'#000000'}>
+            <Text ellipsizeMode="middle" numberOfLines={1} style={styles.text}>{text}</Text>
+        </TextStroke>
+    )
 }
 
 /**
@@ -131,7 +143,8 @@ class SButton extends React.Component{
     }
 
     playSound = function(sound){
-        if (Platform.OS == 'android'){
+        
+        if (Platform.OS === 'android'){
             let arr = sound.split('/')
             sound = arr[arr.length - 1].toLowerCase()
         }
@@ -151,7 +164,7 @@ class SButton extends React.Component{
         }
         return(
             <TouchableOpacity style={styles.button} onPress={onPrs} >
-                <Text ellipsizeMode="middle" numberOfLines={1} style={styles.text}>{props.name}</Text>
+                <StrokedText text={props.name}></StrokedText>
                 {premiumLabel}
             </TouchableOpacity>
         )
@@ -219,16 +232,11 @@ class Soundboard extends React.Component {
 
     constructor(props){
         super(props)
-        this.backgroundImage = {image:{uri: images[Math.floor(Math.random() * 16)]}}
-        // this.props.navigation.addListener('willFocus', () =>{
-        //     store.dispatch(setBackgroundImage({image:{uri: backgroundImage}}))
-        // })
-        // store.dispatch(setBackgroundImage({image:{uri: backgroundImage}}))
+        this.backgroundImage = {uri: images[Math.floor(Math.random() * 16)]}
     }
 
     onError(error){
-        this.backgroundImage = {image: require('../assets/images/default_seal.jpg')}
-        // store.dispatch(setBackgroundImage({image: require('../assets/images/default_seal.jpg')}))
+        this.backgroundImage = require('../assets/images/default_seal.jpg')
     }
 
     render(){
@@ -239,21 +247,26 @@ class Soundboard extends React.Component {
                     
                     <View style={styles.premiumView}>
                         <TouchableOpacity style={styles.premiumButton} onPress={buyProduct()} >
-                            <Text ellipsizeMode="middle" numberOfLines={1} style={styles.text}>Buy Premium</Text>
+                            <StrokedText text="Buy Premium"></StrokedText>
                         </TouchableOpacity>
                         
                         <TouchableOpacity style={styles.premiumButton} onPress={askForPurchase()} >
-                            <Text ellipsizeMode="middle" numberOfLines={1} style={styles.text}>Restore Purchases</Text>
+                            <StrokedText text="Restore Purchases"></StrokedText>
                         </TouchableOpacity>
 
-                        <Text style={{textAlign: 'center'}}>Sounds were collected by the Weddell Seal Science Project under NMFS Permit 1032-1917</Text>
+                        <TextStroke style={{textAlign: 'center'}} stroke={1} color={'#000000'}>
+                            <Text style={{color: 'white'}}>
+                                Sounds collected from multiple sources including the Weddell Seal Science Project under NMFS Permit 1032-1917
+                            </Text>
+                        </TextStroke>
+
                     </View>
 
                 </ImageBackground>
             )
         }else{
             return(
-                <ImageBackground style={styles.container} resizeMode="stretch" source={this.backgroundImage} onError={this.onError.bind(this)}>
+                <ImageBackground style={styles.container} source={this.backgroundImage} onError={this.onError.bind(this)}>
                     <AdUnit style={styles.bannerAd} />
                     <Board  />
                 </ImageBackground>
